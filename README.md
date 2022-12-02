@@ -6,7 +6,7 @@
 ## C#
 - https://github.com/ExAtom/adventofcode22 (chad VS Code-ban)
 
-## Coffeescript
+## CoffeeScript
 - https://github.com/Rettend/advent-of-code2022
 
 # Boldog karácsonyt!
