@@ -1,12 +1,17 @@
 {
+  "type": "module",
   "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "coffee-script": "^1.12.7",
     "coffeescript": "^2.7.0",
-    "grunt": "^1.5.3",
-    "grunt-contrib-coffee": "^2.1.0",
-    "grunt-contrib-jshint": "^3.2.0",
-    "grunt-contrib-nodeunit": "^4.0.0",
-    "grunt-contrib-uglify": "^5.2.2",
+    "eslint": "^8.29.0",
+    "eslint-plugin-coffeescript": "^1.0.0",
     "prettier": "github:helixbass/prettier#prettier-v2.1.0-dev.100-gitpkg",
-    "prettier-plugin-coffeescript": "^0.1.5"
+    "prettier-plugin-coffeescript": "^0.1.5",
+    "rollup-plugin-coffee-script": "^2.0.0"
+  },
+  "scripts": {
+    "dev": "coffee --watch --compile --transpile --output dist src"
   }
 }
