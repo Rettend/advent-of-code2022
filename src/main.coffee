@@ -1,10 +1,8 @@
-import day1 from '/dist/1/day1.js'
+for i in [2..1]
+    { part1, part2, codename } = await import("/dist/#{i}/day#{i}.js")
 
-p = document.createElement 'p'
-p.innerText = 'Day 1'
+    document.body.appendChild document.createElement 'pre'
+        .innerText = "--- Day #{i}: #{codename} ---\n\nPart 1: #{part1}\nPart 2: #{part2}"
 
-pre = document.createElement 'pre'
-pre.innerHTML = day1
-
-document.body.appendChild p
-document.body.appendChild pre
+    document.body.appendChild document.createElement 'hr'
+    document.body.appendChild document.createElement 'br'
