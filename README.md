@@ -1,5 +1,5 @@
 # [advent-of-code2022](https://adventofcode.com/)
-Adventúra
+**Advent**úra
 
 ## Python
 - https://github.com/YertofeX/aoc2022
