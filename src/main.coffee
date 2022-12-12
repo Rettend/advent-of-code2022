@@ -1,4 +1,4 @@
-for i in [2..1]
+for i in [3..1]
     { part1, part2, codename } = await import("/dist/#{i}/day#{i}.js")
 
     document.body.appendChild document.createElement 'pre'
